@@ -1,0 +1,4 @@
+docxtpl
+pywin32
+pyinstaller
+docx2pdf
