@@ -1,6 +1,6 @@
 # **PBCREATOR**
 
-###### Tool for generating Word documents based on Excel file content, and also print documents in PDF format. We´re using to generate Playbooks documents with GUI elements
+###### Tool for generating Word documents based on Excel file content, and also printing documents in PDF format. We´re using it to generate Playbooks documents with GUI elements
 
 #### Prerequisites
 
@@ -8,7 +8,7 @@
 + MS Office
 + Python
 + Python Requirements modules
-* Windows OS
++ Windows OS
 
 #### Installation
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
    - docx_templates_count        - number of templates to process
    - docx_template_name_1        - name of template 1 
    - docx_template_naming_1      - format for resulting document name for template 1 (see usage of variables in examples)
-   - docx_template_dir_1         - initial directory for open template dialog for template 1
+   - docx_template_dir_1         - initial directory for the open template dialog for template 1
    - source_file_dir             - initial directory for the open Excel file dialog
    - complete_data_sheet_name    - name of sheet in Excel file which should be processed
    - lines_to_skip               - number of lines used for description(yellow color in examples)
@@ -48,13 +48,10 @@ python pbcreator.py
 ██║░░░░░██████╦╝╚█████╔╝██║░░██║███████╗██║░░██║░░░██║░░░╚█████╔╝██║░░██║
 ╚═╝░░░░░╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝
 
-made by: Logicalis CDOC!                           version 1.0
+Made by: Andre Coutinho!                           version 1.2
 
-1 -- LOGICALIS
-2 -- BRASILSEG
-3 -- FESP
-4 -- ACH
-5 -- ONNET
+1 -- Client1
+2 -- Client2
 6 -- Exit
 Enter your choice:
 
@@ -70,6 +67,6 @@ Client2 option will create Playbooks docs for the client ID "Cl-02";
 
 -> Remove the "" and <> characters of the Excel Database so the script runs correctly.
 
--> Sometimes the Microsoft Word process (word.exe) and Microsoft Excel process (excel.exe) freeze, producing some errors with the script; you need to close these orphan processes in the Process Manager of Windows in order to work.
+-> Sometimes the Microsoft Word process (word.exe) and Microsoft Excel process (excel.exe) freeze, producing some errors with the script; you need to close these orphan processes in the Process Manager of Windows to work.
 
 -> Name conflict with _FilterDatabase, the solution is to clean up your Windows TEMP files.
